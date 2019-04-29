@@ -40,14 +40,9 @@ ul {
   text-align: center;
   font-size: 2em;
   padding: 1.5em;
-}
-
-.greeting-text {
-  text-align: center;
-  font-size: 2em;
-  padding: 1.5em;
   border-radius: 10px;
 }
+
 
 a {
   text-decoration: none;
