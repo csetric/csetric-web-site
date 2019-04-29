@@ -1,12 +1,83 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <title>Csetric</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      html {
+        font-family: 'Open Sans', sans-serif;
+        color: #2b1641;
+      }
+
+      .background {
+        /*background: #e7e7e7;*/
+        background: rgba(231, 231, 231, 0.8);
+      }
+
+      header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header h1 {
+        margin: 0;
+        padding: 15px;
+      }
+
+      li {
+        list-style: none;
+        padding: 10px;
+      }
+
+      ul {
+        padding: 0;
+      }
+      .greeting-image {
+        background: url(images/BG_IMage.jpg) no-repeat center center fixed;
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .greeting-text  {
+        text-align: center;
+        font-size: 2em;
+        padding: 1.5em;
+      }
+
+      .greeting-text {
+        text-align: center;
+        font-size: 2em;
+        padding: 1.5em;
+        border-radius: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #2b1641;
+      }
+
+
+    </style>
   </head>
   <body>
-    <div class="flexcontainer">
-      <button id="button">Click me!</button>
+    <header class="background">
+      <h1>Csetric</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="greeting-image">
+      <p class="greeting-text background">Welcome To: <br>  Memorial Video Samples  </p>
     </div>
-    <script src="javascript/main.js"></script>
+
   </body>
 </html>
